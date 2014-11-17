@@ -1,0 +1,17 @@
+.workspace
+  canvas-elem canvas=canvas
+  .cur-pos
+    p
+      | Current Position: x: #{canvas.x} y: #{canvas.y}
+    p
+      | Box size: width: #{canvas.boxWidth} height: #{canvas.boxHeight}
+    p
+      | Canvas size: width: #{canvas.width} height: #{canvas.height}
+    p
+      | Canvas size: width: #{canvas.width} height: #{canvas.height}
+    p
+      | Canvas size: top: #{canvas.top} bottom: #{canvas.bottom}
+    p
+      | Canvas size: left: #{canvas.left} right: #{canvas.right}
+    p
+      | Null Point: nullX: #{canvas.nullX} nullY: #{canvas.nullY}

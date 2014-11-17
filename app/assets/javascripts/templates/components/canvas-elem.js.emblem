@@ -1,0 +1,9 @@
+.canvas{bind-attr style=style}
+  .artboard
+/ .cur-pos
+/   p
+/     | Current Position: x: #{canvas.x} y: #{canvas.y}
+/   p
+/     | Box size: width: #{canvas.boxWidth} height: #{canvas.boxHeight}
+/   p
+/     | Canvas size: width: #{canvas.width} height: #{canvas.height}
